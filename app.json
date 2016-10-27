@@ -1,0 +1,26 @@
+{
+  "name": "goa.design",
+  "scripts": {
+  },
+  "env": {
+    "BUILDPACK_URL": {
+      "required": true
+    },
+    "HUGO_BASE_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/goadesign-jp/heroku-buildpack-hugo.git"
+    }
+  ]
+}
