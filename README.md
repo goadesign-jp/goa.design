@@ -1,3 +1,4 @@
+テスト
 # goa.design
 
 This repository contains the source code of [https://goa.design](https://goa.design). The site is
