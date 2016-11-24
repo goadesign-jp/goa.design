@@ -44,3 +44,4 @@ The files that support a given language are:
 * `layouts/<code>/`: contains the layout pages
 * `layouts/section/<code>.html`: contains the index page
 * `layouts/partials/<code>/`: contains the partials files
+テスト
