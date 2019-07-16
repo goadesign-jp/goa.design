@@ -1,5 +1,3 @@
 +++ title = "Design" +++
 
-The Design section introduces the [Goa DSL](overview). The section also covers how to leverage the DSL to <a href="http_mapping">map transport agnostic types to HTTP<a>. Finally we also cover
-<a href="handling_errors">how to design, use and customize error values</a>
-returned by the service endpoints.</p>
+設計セクションでは [Goa DSL](overview) を紹介します。 このセクションでは、<a href="http_mapping">トランスポートにとらわれない型を HTTP にマッピング<a>する為に DSL を活用する方法についても説明します。 最後に、サービスエンドポイントから返される<a href="handling_errors">エラー値の設計、使用、カスタマイズ方法</a>についても説明します。</p>
