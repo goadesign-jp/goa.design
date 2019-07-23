@@ -1,4 +1,1 @@
-+++
-title = "v1"
-layout = "index"
-+++
++++ title = "v1" layout = "index" +++
