@@ -10,7 +10,7 @@ Goa is a Go framework for writing microservices that promotes best practice by p
 
 The DSL in goa v2 makes it possible to describe the services in a transport agnostic way. The service methods DSLs each describe the method input and output types. Transport specific DSL then describe how the method input is built from incoming data and how the output is serialized. For example, a method may specify that it accepts an object composed of two fields as input then the HTTP specific DSL may specify that one of the attributes is read from the incoming request headers while the others from the request body.
 
-This clean decoupling means that the same service implementation can expose endpoints accessible via multiple transports such as HTTP or gRPC. goa takes care of generating all the transport specific code including encoding, decoding and validations. User code only has to focus on the actual service method implementations.
+This clean decoupling means that the same service implementation can expose endpoints accessible via multiple transports such as HTTP or gRPC. Goa takes care of generating all the transport specific code including encoding, decoding and validations. User code only has to focus on the actual service method implementations.
 
 ## Basic Data Types
 
@@ -26,4 +26,4 @@ Code generation now follows a 2-phase process where the first phase produces a s
 * A microservice designed by Goa v2 is **transport-agnostic**. The decoupling of transport layer from the actual service implementation means that the same service can expose endpoints accessible via multiple transports such as HTTP and/or gRPC. Goa v2 takes care of generating all the transport-specific code including encoding, decoding, and validating requests and responses. Goa v1 produces code for HTTP transport only.
 * The generated code follows a **strict separation of concern** where the actual service implmentation is isolated from the transport code. User code only has to focus on the actual service method implementations.
 * Goa v2 generates code that **relies mostly on Go standard library types** making it easier to interface with external code.
-* The [goa-kit](https://github.com/goadesign/plugins/goakit) plugin makes it possible to generate go-kit microservices from Goa designs.
+* The [goa-kit](https://github.com/goadesign/plugins/tree/v3/goakit) plugin makes it possible to generate go-kit microservices from Goa designs.
