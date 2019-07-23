@@ -1,4 +1,4 @@
-+++ date = "2016-09-22T19:01:06-05:00" title = "From Design To Production" description = "Leveraging Google Cloud Endpoints to deploy goa services" author = "Raphael Simon" weight = 7 layout = "blog"
++++ date = "2016-09-22T19:01:06-05:00" title = "From Design To Production" description = "Leveraging Google Cloud Endpoints to deploy goa services" author = "Raphael Simon" weight = 9 layout = "blog"
 
 [menu.main] name = "Design To Production" parent = "blog" +++
 
