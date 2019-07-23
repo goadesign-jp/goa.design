@@ -1,3 +1,1 @@
-+++
-title = "Blog Entries"
-+++
++++ title = "Blog Entries" +++
