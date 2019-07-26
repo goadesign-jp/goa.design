@@ -2,15 +2,15 @@
 
 [menu.main] name = "アップグレード" parent = "learn" +++
 
-# Upgrading from v2 to v3
+# v2 から v3 にアップグレード
 
 v2 と v3 は機能的には同等で、アップグレードはかなり簡単です。 v3 は Go モジュールのサポートが必要になるため、Go 1.11 以降が必要です。 v2 から v3 へのアップグレードは次のように簡単です：
 
 * プロジェクトの Go モジュールを有効にしてください (env GO111MODULE=on go mod init)
 * goa パッケージのインポートパスを goa.design/goa/v3/pkg にアップデートしてください
-* Updating the import path of Goa package X from goa.design/goa/X to goa.design/goa/v3/X
+* Goa のパッケージ X を goa.design/goa/X から goa.design/goa/v3/X にアップデートします
 
-That's it! Note also that the `goa` tool in v3 is backwards compatible and is able to generate code for v2 design. This makes it possible to work concurrently on both v2 and v3 projects by keeping v2 in the GOPATH and using v3 as a Go module.
+これでおしまいです！ Note also that the `goa` tool in v3 is backwards compatible and is able to generate code for v2 design. This makes it possible to work concurrently on both v2 and v3 projects by keeping v2 in the GOPATH and using v3 as a Go module.
 
 # Upgrading from v1 to v2 or v3
 
